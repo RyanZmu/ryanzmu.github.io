@@ -1,10 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { Card, CardGroup, Container } from 'react-bootstrap'
 import marvel from '../images/marvel-pic.png'
 import weather from '../images/weather-pic.png'
 import jeoprady from '../images/jeoprady.png'
 import ac from '../images/ac.png'
+import social from '../images/social.png'
 
 
 const LandingPage = (props) => {
@@ -24,10 +24,20 @@ const LandingPage = (props) => {
                     <Card.Body>Built to allow the user to search a Marvel Character to then find their comics, get a brief description, offical comic pictures, and also they can see important events and series the character was/is involved in.</Card.Body>
                 </Card>
                 <Card>
+                    <a href='https://ryanzmu.github.io/social-media-app/'><Card.Img src={social} /></a>
+                    <Card.Title>Social Media App - DevelopBook</Card.Title>
+                    <Card.Subtitle>Stack: Javascript, HTML5, CSS3 
+                     <br/>
+                    Frameworks/Libraries: React.JS, React-Bootstrap, React-Router-Dom, Formik
+                     <br/>
+                    API: No API (Making own API with Node.JS+Express) </Card.Subtitle>
+                    <Card.Body>After learning the ropes of Facebook's React library, I figured what better way to test my new skills than to design my own social media website! Currently you can login as any of the 4 users I have made. Go to sign-in and try them out! Lots to do here still, including sign-up forms so you can add your own users and of course making the design a lot more put together. Enjoy DevelopBook!</Card.Body>
+                </Card>
+                <Card>
                     <a href='https://ryanzmu.github.io/WeatherApp'><Card.Img src={weather} /></a>
                     <Card.Title>NWS Weather App</Card.Title>
                     <Card.Subtitle>Stack: Javascript, HTML5, CSS3 <br/> API: <a href='https://www.weather.gov/documentation/services-web-api'>NWS API</a> </Card.Subtitle>
-                    <Card.Body>Weather app created using NWS API and gathering the users geolocation of a user by harnessing the browser builtin GeoLocation API. Users can see a detailed 7 day forcast (morning,evening,night).</Card.Body>
+                    <Card.Body>Weather app created using NWS API and gathering the users location by harnessing the browser builtin GeoLocation API. Users can see a detailed 7 day forcast (morning,evening,night).</Card.Body>
                 </Card>
                 <Card>
                     <a href='https://ryanzmu.github.io/Jeoprady-App/'><Card.Img src={jeoprady} /></a>
