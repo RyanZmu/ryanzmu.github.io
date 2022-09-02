@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { Card, CardGroup, Container } from 'react-bootstrap'
 import marvel from '../images/marvel-pic.png'
 import weather from '../images/weather-pic.png'
+import jeoprady from '../images/jeoprady.png'
 
 
 const LandingPage = (props) => {
@@ -26,6 +27,12 @@ const LandingPage = (props) => {
                     <Card.Title>NWS Weather App</Card.Title>
                     <Card.Subtitle>Stack: Javascript, HTML5, CSS3 <br/> API: <a href='https://www.weather.gov/documentation/services-web-api'>NWS API</a> </Card.Subtitle>
                     <Card.Body>Weather app created using NWS API and gathering the users geolocation of a user by harnessing the browser builtin GeoLocation API. Users can see a detailed 7 day forcast (morning,evening,night).</Card.Body>
+                </Card>
+                <Card>
+                    <a href='https://ryanzmu.github.io/Jeoprady-App/'><Card.Img src={jeoprady} /></a>
+                    <Card.Title>Jeoprady Trivia Game</Card.Title>
+                    <Card.Subtitle>Stack: Javascript, HTML5, CSS3 <br/> API: <a href='https://jeopardy-game-api.herokuapp.com/api-docs/'>Jeoprady-Game-API</a> </Card.Subtitle>
+                    <Card.Body>Trivia game based on jeoprady. Players enter name then are given a board of random catergories each with a question for $100-$600. Users then have 30 seconds to answer the question. Reaching zero $0 means you're out. This is more of an endurance contest until I go back and add the option for a second player.</Card.Body>
                 </Card>
             </CardGroup>
         </div>
