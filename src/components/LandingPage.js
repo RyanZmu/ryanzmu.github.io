@@ -12,7 +12,7 @@ const LandingPage = (props) => {
         <div className='landing-page'>
             <Container>
                 <section>
-                    <p>Hey Welcome! Take a look through some of my projects. Each project is still a WIP however, they have achieved the set MVP I had for each. Check back often for updates! Feel free to reach out and ask me questions about my projects, also feel free to draw inspiration for your own works!</p>
+                    <p>Hey Welcome! Take a look through some of my projects. Each project is still a WIP however, they have achieved the set MVP I had for each. Also the sites are not very mobile friendly but I will be fixing that soon. Check back often for updates! Feel free to reach out and ask me questions about my projects, also feel free to draw inspiration for your own works!</p>
                 </section>
             </Container>
 
